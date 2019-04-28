@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.app5"
+version = "1.0.0">
+ 
+ <name> app5 Notificaciones del dispositivo 2018</name>
+ 
+ <description>
+ Aplicaion que realiza la vibracion y beep del dispositivo
+ </description>
+ 
+ <author href="https://build.poneghap.com" email = "wendybm698@gmail.com">
+ 	Wendolyn Pedraza Catarino
+	</author>
+	
+	<!--Personaliza la aplicaion y plataforma -->
+	<perference name="orientation"  value="default"/>
+	<!-- <perference name ="orientation" value="portrait"/>
+	<preference name="orientation" value="landscape"/> -->
+	<perference name="target-device"  value="universal"/>
+	<perference name="fullscreen"  value="true"/>
+	<perference name="android-installLocation"  value="auto"/>	
+	<perference name="permissions"  value="INTERNET"/>
+	
+	<!-- Plugins -->
+	<!--Core plugins-->
+	<plugin name="cordova-plugin-device" spec="~1.1.4"/>
+	<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
+	<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+	
+	<!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
+	<!-- Third part plugins -->
+	
+	<!-- Colocar icono app -->
+	
+	<icon src="res/android/mdpi.png"/>
+	
+	</widget>
+	
